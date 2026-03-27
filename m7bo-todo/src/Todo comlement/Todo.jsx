@@ -1,4 +1,4 @@
-
+import styles from './Todo.module.css';
 
 function Todo() {
   return (
@@ -7,6 +7,7 @@ function Todo() {
       <h2>Add a new todo</h2>
         <input type="text" placeholder="Enter a new todo" />
         <button>Add</button>
+        
      </div>
   );
 }

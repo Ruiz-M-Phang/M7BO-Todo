@@ -6,3 +6,5 @@ hallo
 Hallo, Lucas
 
 heb de Todo.jsx aangemaakd
+
+ik heb het aanpgepasd

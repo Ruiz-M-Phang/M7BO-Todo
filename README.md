@@ -5,6 +5,8 @@ hallo
 
 Hallo, Lucas
 
-heb de Todo.jsx aangemaakd
+heb de Todo.jsx aangemaakt
 
-ik heb het aanpgepasd
+ik heb het aanpgepast
+
+

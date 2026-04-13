@@ -4,12 +4,11 @@ export function Navbar() {
 
   return (
     <div>
-        {/* hier komt de code navbar */}
-        <div className={styles.background}>
-          <nav className={styles.navbar}>
-              <ul className={styles.navbar__list}>
-                  <li className={styles.list__item}><button className={styles.list__button}><a href="" className={styles.item__link}>past due</a></button></li>
-                  <li className={styles.list__item}><button className={styles.list__button}><a href="" className={styles.item__link}>completed</a></button></li>
+        <div className={styles.Navbar__background}>
+          <nav className={styles.Navbar__navbar}>
+              <ul className={styles.Navbar__navbar__list}>
+                  <li className={styles.Navbar__list__item}><button href="./App.jsx" className={styles.Navbar__list__button}><a className={styles.Navbar__item__link}>past due</a></button></li>
+                  <li className={styles.Navbar__list__item}><button href="./app.jsx" className={styles.Navbar__list__button}><a className={styles.Navbar__item__link}>completed</a></button></li>
               </ul>
           </nav>
         </div>

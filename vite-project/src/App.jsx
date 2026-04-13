@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import {Todolist} from './Todolist/Todolist.jsx';
+import {Navbar} from './Navigatie/Navbar.jsx';
 import {Todo} from './Todo/Todo.jsx';
 
 
@@ -9,7 +10,8 @@ import {Todo} from './Todo/Todo.jsx';
   return (
     <>
     
-    <Todolist />
+      <Navbar />
+      <Todolist />
 
     </>
   )

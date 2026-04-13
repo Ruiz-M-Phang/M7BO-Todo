@@ -5,7 +5,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 1vh;
 }
 
 html {
@@ -19,28 +19,32 @@ img{
     height: auto;
 }
 
-.background {
+.Navbar__background {
     background-color: aquamarine;
-}
-
-.navbar__list {
     display: grid;
     grid-template-columns: 14rem 14rem;
     list-style: none;
-    padding: 0rem 1rem 0rem 5rem;
+    padding-right: 100vw;
 }
 
-.list__button {
+.Navbar__navbar__list {
+    display: grid;
+    grid-template-columns: 14rem 14rem;
+    list-style: none;
+    padding-left: 5rem;
+}
+
+.Navbar__list__button {
     padding: 1rem;
     background-color: aquamarine;
     border: none;
 }
 
-.list__item :hover {
+.Navbar__list__item :hover {
     background-color: rgb(128, 230, 196);
 }
 
-.item__link {
+.Navbar__item__link {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;

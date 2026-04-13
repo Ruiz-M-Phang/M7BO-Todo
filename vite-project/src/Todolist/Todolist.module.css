@@ -1,7 +1,14 @@
-.todolist{
-   font-family: sans-serifs;
-   display: flexbox;
+.Todolist__background{
+   background-color: white;
+   display: flex;
    align-items: center;
-   margin-left: 37rem;
-   
+   justify-self: center;
+   height: 90vh
+}
+
+.todolist{
+   font-family: sans-serif;
+   display: grid;
+   font-size: 1.5rem;
+   text-decoration: none;
 }

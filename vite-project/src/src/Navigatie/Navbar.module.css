@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+html {
+    font-size: 62.5%; /* font is 10px */
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.background {
+    background-color: aquamarine;
+}
+
+.navbar__list {
+    display: grid;
+    grid-template-columns: 14rem 14rem;
+    list-style: none;
+    padding: 0rem 1rem 0rem 5rem;
+}
+
+.list__button {
+    padding: 1rem;
+    background-color: aquamarine;
+    border: none;
+}
+
+.list__item :hover {
+    background-color: rgb(128, 230, 196);
+}
+
+.item__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
